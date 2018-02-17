@@ -1,7 +1,0 @@
-modular design,  
-code reuse,  
-mvc-lh,  
-where node/express belongs,  
-logic vs framework,  
-dealing with larger file structures,  
-testing,  
