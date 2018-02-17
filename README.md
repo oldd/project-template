@@ -1,5 +1,2 @@
-this is a project template repo
-
-in here should be everything someone needs to complete this project (assuming they did the previous projects)
-
-we do one of these for each project and link to them from the main curric gitbook
+hello.  this is the schedule for your course with us in april  
+anything tied to a day will be here  
