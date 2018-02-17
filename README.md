@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 gitbook step-through guide for whatever project this is
 
 learning objectives are these:  1, 2, 3, 4, ...
@@ -38,3 +39,7 @@ pros and cons of markdowns living directly in project folder
 		reusability
 		consistency accross uses
 		curriculum updating becomes trickier
+=======
+hello.  this is the schedule for your course with us in april  
+anything tied to a day will be here  
+>>>>>>> 724d62502eb60651a8c7d2d77d2d913395d8a722
