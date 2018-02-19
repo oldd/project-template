@@ -14,7 +14,7 @@ file structure
 |- docs_src/
 |	#	markdown source for the gitbook lives here
 |	|- 0-learning-objectives.md - what to focus on when building this project
-|	|- 1-study-resources.md - places to learn the stuff. external links, source code / markdowns included
+|	|- 1-study-resources.md - external links, sourcecode/markdowns included in repo
 |	|- 2-exercises.md - links or included, practice for requisite tools and sub-skills
 |	|- 3-assignment.md - feature steps, full description, full repo (document, todo list)
 |	|- 4-self-assessment.md - google forms code reading, journal entry
