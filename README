@@ -1,0 +1,41 @@
+this is a template for each project gitbook.  use it for each one for consistency and convenience 
+
+file structure
+|- demo-code-n/
+|	#	these folders store source code to study
+| 	#	this code can be complete projects, outlines, buggy, whatever
+|
+|- docs/
+|	#	the html source for the live gitbook lives here
+|	#	you never need to touch the code in here
+|	#	when you run the "build" or "publish" scripts gitbooks builds the html here
+|	# * must change settings in each project's repo to build gh-pages from /docs on master branch *
+|
+|- docs_src/
+|	#	markdown source for the gitbook lives here
+|	|- 0-learning-objectives.md - what to focus on when building this project
+|	|- 1-study-resources.md - places to learn the stuff. external links, source code / markdowns included
+|	|- 2-exercises.md - links or included, practice for requisite tools and sub-skills
+|	|- 3-assignment.md - feature steps, full description, full repo (document, todo list)
+|	|- 4-self-assessment.md - google forms code reading, journal entry
+|	|- README.md - general overview of the project
+|	|- SUMMARY.md - no need to modify this
+|
+|- local-resources/
+|	#	these things are linked to from docs_src/1-study-resources.md
+|	|- assessments/
+|	|	#	any assessment material for this project
+|	|- exercises/
+|	|	#	exercises we made for this project
+|	|- markdowns/
+|		#	markdown study-sheets we made for this project
+|
+|- scripts/
+	#	shell scripts for working with the gitbook
+	#	run them from the top of the directory
+	|- build.sh
+	|	#	builds your markdown into html and moves it into docs/
+	|- publish.sh
+	|	#	pulls, builds html, moves it to docs/, pushes 
+	|- serve.sh
+		#	runs md from docs_src/ on localhost:4000 for writing the gitbook
