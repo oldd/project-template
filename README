@@ -9,7 +9,7 @@ file structure
 |	#	the html source for the live gitbook lives here
 |	#	you never need to touch the code in here
 |	#	when you run the "build" or "publish" scripts gitbooks builds the html here
-|	# * set your repo to build gh-pages from /docs on master branch *
+|	#	* set your repo to build gh-pages from /docs on master branch *
 |
 |- docs_src/
 |	#	markdown source for the gitbook lives here
