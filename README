@@ -1,9 +1,13 @@
 this is a template for each project gitbook.  use it for each one for consistency and convenience 
 
 file structure
-|- demo-code-n/
-|	#	these folders store source code to study
-| 	#	this code can be complete projects, outlines, buggy, whatever
+|- demo-project-n/
+|	#	these folders contain sample demos of the finished project
+|	#	perhaps a sample of each feature-step
+|	#	or a basic implementation they can elaborate on 
+|	#	or an advanced implementation they can study
+|	#	or in need of learningful refactor
+|	#	...  your call
 |
 |- docs/
 |	#	the html source for the live gitbook lives here
@@ -28,7 +32,10 @@ file structure
 |	|- exercises/
 |	|	#	exercises we made for this project
 |	|- markdowns/
-|		#	markdown study-sheets we made for this project
+|	|	#	markdown study-sheets we made for this project
+|	|- study-code/
+|		#	source code to study. outlines, buggy, whatever
+|		#	different from /demo-projects because this code isn't demos of the project
 |
 |- scripts/
 	#	shell scripts for working with the gitbook
